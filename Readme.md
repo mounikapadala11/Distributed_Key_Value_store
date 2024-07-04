@@ -134,10 +134,15 @@ This decentralized key-value store is ideal for:
 ## Endpoints
 
 /create/{key}: Create a new key-value pair.
+
 /read/{key}: Read the value of a key.
+
 /update/{key}: Update the value of a key.
+
 /delete/{key}: Delete a key-value pair.
+
 /add_node/{node}: Add a new node to the consistent hashing ring.
+
 /get_node/{key}: Get the node responsible for a given key.
 
 
